@@ -1,1 +1,1 @@
-7MinWorkOutApp
+7MinWorkOutApp written in angular js and bootstrap
