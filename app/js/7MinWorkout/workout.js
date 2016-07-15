@@ -45,7 +45,7 @@ angular.module('7MinWorkout').controller('workoutCtrl', function ($scope, $inter
         var workout = new WorkoutPlan({
             name: "7minWorkout",
             title: "7 Minute Workout",
-            restBetweenExercise: 2
+            restBetweenExercise: 10
         });
 
         workout.exercises.push({
@@ -58,7 +58,7 @@ angular.module('7MinWorkout').controller('workoutCtrl', function ($scope, $inter
                 variations: [],
                 procedure: ""
             }),
-            duration: 3
+            duration: 30
         });
         workout.exercises.push({
             details: new Exercise({
@@ -70,7 +70,7 @@ angular.module('7MinWorkout').controller('workoutCtrl', function ($scope, $inter
                 variations: [],
 
             }),
-            duration: 3
+            duration: 30
         });
         workout.exercises.push({
             details: new Exercise({
@@ -94,7 +94,7 @@ angular.module('7MinWorkout').controller('workoutCtrl', function ($scope, $inter
                 variations: [],
                 procedure: ""
             }),
-            duration: 3
+            duration: 30
         });
         workout.exercises.push({
             details: new Exercise({
@@ -106,7 +106,7 @@ angular.module('7MinWorkout').controller('workoutCtrl', function ($scope, $inter
                 variations: [],
                 procedure: ""
             }),
-            duration: 3
+            duration: 30
         });
         workout.exercises.push({
             details: new Exercise({
@@ -118,7 +118,7 @@ angular.module('7MinWorkout').controller('workoutCtrl', function ($scope, $inter
                 variations: [],
                 procedure: ""
             }),
-            duration: 3
+            duration: 30
         });
         workout.exercises.push({
             details: new Exercise({
@@ -130,7 +130,7 @@ angular.module('7MinWorkout').controller('workoutCtrl', function ($scope, $inter
                 variations: [],
                 procedure: ""
             }),
-            duration: 3
+            duration: 30
         });
         workout.exercises.push({
             details: new Exercise({
@@ -142,7 +142,7 @@ angular.module('7MinWorkout').controller('workoutCtrl', function ($scope, $inter
                 variations: [],
                 procedure: ""
             }),
-            duration: 3
+            duration: 30
         });
         workout.exercises.push({
             details: new Exercise({
@@ -154,7 +154,7 @@ angular.module('7MinWorkout').controller('workoutCtrl', function ($scope, $inter
                 variations: [],
                 procedure: ""
             }),
-            duration: 3
+            duration: 30
         });
         workout.exercises.push({
             details: new Exercise({
@@ -166,7 +166,7 @@ angular.module('7MinWorkout').controller('workoutCtrl', function ($scope, $inter
                 variations: [],
                 procedure: ""
             }),
-            duration: 3
+            duration: 30
         });
         workout.exercises.push({
             details: new Exercise({
@@ -178,7 +178,7 @@ angular.module('7MinWorkout').controller('workoutCtrl', function ($scope, $inter
                 variations: [],
                 procedure: ""
             }),
-            duration: 3
+            duration: 30
         });
         workout.exercises.push({
             details: new Exercise({
@@ -190,7 +190,7 @@ angular.module('7MinWorkout').controller('workoutCtrl', function ($scope, $inter
                 variations: [],
                 procedure: ""
             }),
-            duration: 3
+            duration: 30
         });
 
         return workout;
